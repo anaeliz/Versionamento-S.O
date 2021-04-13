@@ -1,0 +1,14 @@
+Algoritimo "Impar e Par"
+Var
+// Seção de Declarações das variáveis 
+N: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva ("Insira um número: ")
+Leia (N)
+se N %2=0 entao
+escreva ("O número que você digitou é par.")
+senao
+escreva ("O número que você digitou é impar.")
+fimse
+Fimalgoritmo

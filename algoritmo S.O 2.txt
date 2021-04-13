@@ -1,0 +1,20 @@
+Algoritmo "Média"
+// Autor(a)    : Ana ELiza Lopes
+Var
+// Seção de Declarações das variáveis 
+N1, N2, N3, N4: real
+Media: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva ("Escreva o 1º número: ")
+Leia (N1)
+Escreva ("Escreva o 2º número: ")
+Leia (N2)
+Escreva ("Escreva o 3º número: ")
+Leia (N3)
+Escreva ("Escreva o 4º número: ")
+Leia (N4)
+Media <- (N1+N2+N3+N4) / 4
+Escreva ("A média é:")
+Escreva (Media)
+Fimalgoritmo

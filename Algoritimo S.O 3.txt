@@ -1,0 +1,22 @@
+Algoritmo "Reajuste Salarial"
+Var
+// Seção de Declarações das variáveis
+salario: real
+novo_salario: real
+reajuste: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva ("Insira o salário inicial: ")
+leia (salario)
+se (salario <= 1100) entao
+reajuste <- (salario * 13)/100
+novo_salario <- (reajuste + salario)
+Escreva ("O salário com reajuste é de: ")
+escreva (novo_salario)
+senao entao
+reajuste <- (salario * 7)/100
+novo_salario <- (reajuste + salario)
+Escreva ("O salário com reajuste é de: ")
+escreva (novo_salario)
+fimse
+Fimalgoritmo
